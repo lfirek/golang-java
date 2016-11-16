@@ -1,4 +1,4 @@
-FROM golang:1.7.3-wheezy
+FROM golang:1.7.3
 RUN apt-get update && apt-get install -y --no-install-recommends \
 	bzip2 \
 	unzip \
